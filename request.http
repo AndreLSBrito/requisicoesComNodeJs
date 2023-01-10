@@ -2,8 +2,8 @@ POST http://localhost:9998/products
 content-type: application/json
 
 {
-  "name" : "Bolsinha de Vaquinha",
-  "price": 17.6
+  "name" : "Borracha de gatinho",
+  "price": 6.6
 }
 
 ###
@@ -12,10 +12,10 @@ GET http://localhost:9998/products
 
 ###
 
-GET http://localhost:9998/products/a6b5019c-5c66-4532-be89-b0c1aead15e1
+GET http://localhost:9998/products/9498f3d7-76af-4084-84d0-96cab6e3db5b
 ###
 
-PUT  http://localhost:9998/products/de1dfc92-9d5e-4307-836b-772507958707
+PUT  http://localhost:9998/products/88ea27ba-f98a-4ee6-9558-235e9a3cf625
 content-type: application/json
 
 {
@@ -25,4 +25,4 @@ content-type: application/json
 
 ###
 
-DELETE  http://localhost:9998/products/de1dfc92-9d5e-4307-836b-772507958707
+DELETE  http://localhost:9998/products/9498f3d7-76af-4084-84d0-96cab6e3db5b
